@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900&display=swap');
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*---------------------------------------Callout*/
+
+.callout-container {
+  height: 88vh;
+
+  background: url('../images/joelgrey.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.transparant-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.name {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.lead {
+  color: #ffffff;
+  margin: 10px;
+  text-decoration: overline;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.fa-code {
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*---------------------------------------About-Personal-*/
+
+.about-container {
+  height: 50vh;
+
+  background: url('../images/laptop.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.subtitle {
+  margin-left: 30px;
+  font-family: "helvetica", sans-serif;
+  font-weight: 200;
+}
+
+.key {
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 30px;
+  display: inline-block;
+  font-size: 20px;
+  width: 33%;
+  vertical-align: top;
+}
+
+.value {
+  display: inline-block;
+  font-size: 15px;
+  width: 33%;
+}
+
+.personal-info {
+  padding: 20px;
+  background-color: #feb236;
+  display: block;
+  clear: both;
+}
+
+
+.introduction {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.introduction p {
+  margin-left: 30px;
+}
+
+.about-me {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 30px;
+}
+
+.fa-user,
+.fa-address-card {
+  padding-left: 20px;
+}
+
+.fa-user {
+  color: #feb236;
+}
+
+.introduction a {
+  margin-left: 30px;
+}
+
+/*---------------------------------------Footer*/
+
+.social-text {
+  color: #fff;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+footer {
+  background-color: #24272a;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.social-media-icons li i {
+  color: #fff;
+  margin: 10px;
+}
+
+/*---------------------------------------Additional*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*---------------------------------------About page*/
+
+.fa-file-code,
+.fa-cogs,
+.fa-tasks {
+  padding-left: 20px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/*---------------------------------------About bg colors*/
+
+.what-bg-color {
+  background-color: #6b5b95;
+}
+
+.how-bg-color {
+  background-color: #fff;
+}
+
+.why-bg-color {
+  background-color: #feb236;
+}
+
+/*---------------------------------------Resume page*/
+
+.projects {
+  background-color: #6b5b95;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 50%;
+  padding: 60px;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.project-item {
+  color: #fff;
+  text-decoration: none;
+  max-width: 60%;
+  margin: auto;
+}
+
+.project-item:hover {
+  text-decoration: none;
+  color: #feb236;
+}
+
+.front-end,
+.back-end {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 60px;
+}
+
+.back-end {
+  background-color: #f6f6f6;
+}
+
+.fa-laptop {
+  padding-left: 20px;
+}
+
+/*---------------------------------------Progress bars*/
+
+.skill-progression {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.progress {
+  position: relative;
+  margin-bottom: 4px;
+  height: 25px;
+}
+
+.progres-skill {
+  font-family: "Sans Source Pro", sans-serif;
+  position: absolute;
+  left: 5px;
+  font-weight: 400;
+  padding: 3px 30px 2px 10px;
+  color: #000;
+}
+
+.bar-skills {
+  margin: auto;
+  max-width: 80%;
+  padding: 60px;
+}
+
+.progress-bar-striped {
+  background-color: #feb236;
+}
+
+/*---------------------------------------contact page*/
+
+.contact-heading {
+  margin: 50px;
+}
+
+.contact-title,
+.contact-me {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.contact-title {
+  font-weight: 200;
+}
+
+.btn-primary {
+  background-color: #feb236;
+  color: #000;
+}
+
+button {
+  margin: 20px;
+}
+
+.form-placement {
+  padding-top: 20px;
+  max-width: 40%;
+  margin: auto;
+}

@@ -1,6 +1,6 @@
  # Joël Lojedo Rosso
  
- ### User-Centric Frontend Development - Code Institute
+ ## User-Centric Frontend Development - Code Institute.
  
  This my portfolio site created under the Milestone project for Code Institute.
  To show future employers my skills as an Full Stack Developer.
